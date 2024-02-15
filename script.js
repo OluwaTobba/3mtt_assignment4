@@ -1,7 +1,7 @@
 const quizData = [
     {
         question: "What is the capital of Nigeria?",
-        options: ["Osogbo", "Lagos", "Abuja", "Lokoja"],
+        options: ["Ekiti", "Lagos", "Abuja", "Lokoja"],
         correctAnswer: "Abuja"
     },
     {
