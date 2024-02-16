@@ -116,11 +116,11 @@ function endQuiz() {
 
     const performanceMessage = document.createElement("p");
     if (score === quizData.length) {
-        performanceMessage.innerText = "Congratulations! You got all the questions right!";
+        performanceMessage.innerText = "Congratulations! You got all the questions right!😌🎉";
     } else if (score >= Math.floor(quizData.length / 2)) {
-        performanceMessage.innerText = "Well done! You performed quite well.";
+        performanceMessage.innerText = "Well done! You performed quite well.😏";
     } else {
-        performanceMessage.innerText = "Re-check your answers! You can do better.";
+        performanceMessage.innerText = "Why are you so dull? 😒.";
     }
     performanceMessage.classList.add("performance-message");
     questionContainer.appendChild(performanceMessage);
