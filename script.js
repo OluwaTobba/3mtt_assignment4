@@ -120,7 +120,7 @@ function endQuiz() {
     } else if (score >= Math.floor(quizData.length / 2)) {
         performanceMessage.innerText = "Well done! You performed quite well.😏";
     } else {
-        performanceMessage.innerText = "Why are you so dull? 😒.";
+        performanceMessage.innerText = "Why are you so dull?😒";
     }
     performanceMessage.classList.add("performance-message");
     questionContainer.appendChild(performanceMessage);
